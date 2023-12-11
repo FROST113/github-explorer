@@ -1,0 +1,44 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  background-color: #555;
+  border-radius: 5px;
+}
